@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="purple_200">#FFFFFF</color>
+    <color name="purple_500">#FFFFFF</color>
+    <color name="purple_700">#FFFFFF</color>
+    <color name="teal_200">#FFFFFF</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#EE000F</color>
+    <color name="text_gray">#636363</color>
+    <color name="text_black">#000000DE</color>
+    <color name="sub_text_gray">#929292</color>
+    <color name="text_grey_a1">#A1A1A1</color>
+    <color name="light_gray">#CCCCCC</color>
+    <color name="submit_gray">#AAAAAA</color>
+    <color name="border_gray">#0000000D</color>
+    <color name="border_view_gray">#E8E8E8</color>
+    <color name="smoke">#A5A5A5</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="viewColor">#E7E7E7</color>
+    <color name="cardBlack">#3a3a3a</color>
+    <color name="colorPrimary">#CAE7F6</color>
+    <color name="colorPrimaryDark">#0f5998</color>
+    <color name="colorAccent">#4075a2</color>
+    <color name="colorNavIcon">#dae9f6</color>
+    <color name="colorNavText">#01294b</color>
+    <color name="green">#24df16</color>
+    <color name="blue_color">#6696F6</color>
+    <color name="text_grey_75">#757575</color>
+    <color name="border_color">#DCDCDC</color>
+    <color name="grey_6f">#6F6F6F</color>
+    <color name="commenttextColor">@color/black</color>
+    <color name="commenttextColorOld">#5F5F5F</color>
+    <color name="commentHeadtextColor">#A3A3A3</color>
+    <color name="black_0">#000000</color>
+    <color name="black_bc">#000000BC</color>
+    <color name="black_99">#00000099</color>
+    <color name="light_grey_1f">#0000001F</color>
+    <color name="transparent_red">#4DEE000F</color>
+    <color name="grey">#9A9A9A</color>
+    <color name="grey_stroke" tools:override="true">#CCCCCC</color>
+    <color name="transparent_white">#FFFFFF</color>
+    <color name="rewards_common_header">#FFF5F9</color>
+    <color name="rewards_common_items">#FFF6F7</color>
+    <color name="comments_main_header">#636363</color>
+</resources>

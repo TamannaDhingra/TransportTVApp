@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.fragments.LocationTabFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:id="@+id/layout_for_location_tab"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/tvcurrent_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="56dp"
+
+                    android:text="Current location"
+                    android:textColor="@color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Amritsar GT Road,143001"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@+id/tvcurrent_location"
+                    app:layout_constraintTop_toBottomOf="@+id/tvcurrent_location" />
+
+                <ImageView
+                    android:id="@+id/img_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_baseline_my_location_24"
+                    app:layout_constraintEnd_toStartOf="@+id/tvcurrent_location"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="168dp"
+                    android:layout_marginTop="6dp"
+                    android:src="@drawable/ic_right_arrow"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/tvcurrent_location"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/search_bar_click"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="25dp"
+
+                android:background="@drawable/searchview_background"
+                app:defaultQueryHint="Search for area,street"
+
+                app:queryHint="Search for area,street" />
+
+        </LinearLayout>
+    </FrameLayout>
+</layout>

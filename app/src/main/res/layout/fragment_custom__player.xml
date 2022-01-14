@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlTop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:elevation="4dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/light_gray" />
+
+    <RelativeLayout
+        android:id="@+id/rlPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+      <!--  <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:resize_mode="fit"
+            app:show_buffering="always"
+            app:use_controller="false" />-->
+
+        <RelativeLayout
+            android:id="@+id/llPlayerController"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true">
+<!--
+
+            <com.google.android.exoplayer2.ui.PlayerControlView
+                android:id="@+id/controls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:auto_show="true"
+                app:controller_layout_id="@layout/online_player_custom_control"
+                app:fastforward_increment="10000"
+                app:rewind_increment="10000"
+                app:show_timeout="0" />
+-->
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivBack"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_margin="24dp"
+                android:rotation="180"
+                android:src="@drawable/back"
+                android:tint="@color/white" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlBottomController"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btmViewColor"
+        android:layout_marginStart="130dp"
+        android:animateLayoutChanges="true"
+        android:elevation="6dp"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="5dp"
+            android:layout_toLeftOf="@+id/ivPlayPause"
+            android:orientation="vertical"
+            android:paddingStart="8dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvVideoCateg"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textAllCaps="true"
+                android:textColor="@color/red"
+                android:textSize="10dp"
+                android:visibility="gone" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvVideoTitle"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivPlayPause"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/llClose"
+            android:src="@drawable/ic_pause"
+            android:tint="@color/red" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/llClose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="10dp"
+            android:focusable="true"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@drawable/ic_close"
+                android:tint="@color/red" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/btmViewColor"
+        android:layout_width="match_parent"
+        android:layout_height="0.00001dp"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:background="@color/light_gray" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="5dp"
+        android:indeterminateTint="@color/red"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

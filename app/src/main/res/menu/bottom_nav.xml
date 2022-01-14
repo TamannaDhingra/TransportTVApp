@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:id="@+id/transport_tv_menu"
+    android:icon="@drawable/transporttv_bottom"
+    android:title="TV" />
+
+<item
+    android:id="@+id/insurencemenu"
+    android:icon="@drawable/insureance_bottom"
+    android:title="Insurance" />
+
+    <item
+        android:id="@+id/dhabamenu"
+        android:icon="@drawable/ic_dhaba_black"
+        android:title="Dhaba" />
+
+    <!--   <item
+           android:id="@+id/dhabaList"
+           android:icon="@drawable/ic_dhaba_tab"
+           android:title="@string/dhabas" />-->
+
+    <item
+        android:id="@+id/rewardsmenu"
+        android:icon="@drawable/reward_menu"
+        android:title="Rewards" />
+rewa
+
+    <item
+    android:id="@+id/helplinemenu"
+    android:icon="@drawable/alert_bottom"
+    android:title="Helpline" />
+
+
+</menu>

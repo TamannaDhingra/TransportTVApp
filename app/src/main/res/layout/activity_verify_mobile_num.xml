@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/logo_id"
+                    android:layout_width="114dp"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/logo"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/verifyText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/logo_id"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="36dp"
+                    android:text="Verify"
+                    android:textColor="@color/black"
+                    android:textSize="26sp" />
+
+
+                <TextView
+                    android:id="@+id/verifyTextDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/verifyText"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginEnd="16dp"
+                    android:gravity="center"
+                    android:text="Enter OTP Send To"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+
+                <com.chaos.view.PinView
+                    android:id="@+id/firstPinView"
+                    style="@style/PinWidget.PinView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/verifyTextDetails"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginEnd="16dp"
+                    android:cursorVisible="true"
+                    android:gravity="center"
+                    android:hint="0000"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    app:cursorColor="@color/colorPrimary"
+                    app:cursorWidth="1dp"
+                    app:hideLineWhenFilled="false"
+                    app:itemCount="4"
+                    app:itemHeight="54dp"
+                    app:itemRadius="4dp"
+                    app:itemSpacing="12dp"
+                    app:itemWidth="54dp"
+                    app:lineColor="@color/light_gray"
+                    app:lineWidth="1dp"
+                    app:viewType="rectangle"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/counter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/firstPinView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="14dp"
+                    android:text="OTP Expires in"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/continueCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_below="@+id/counter"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginEnd="16dp"
+                    app:cardBackgroundColor="@color/submit_gray"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/verify_cont_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/grey"
+                        android:gravity="center"
+                        android:text="Continue"
+                        android:enabled="false"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/changeNumCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_below="@+id/continueCard"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="4dp">
+
+                    <TextView
+                        android:id="@+id/changeNum"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/light_gray"
+                        android:gravity="center"
+                        android:text="Change Phone Number"
+                        android:textColor="@color/sub_text_gray"
+                        android:textSize="18sp" />
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</layout>
