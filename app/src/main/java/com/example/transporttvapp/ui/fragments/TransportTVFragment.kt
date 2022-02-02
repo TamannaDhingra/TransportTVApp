@@ -42,6 +42,8 @@ class TransportTVFragment() : Fragment() {
 
         val viewmodel =
             ViewModelProvider(this, HomeScreenVideoFactory()).get(HomeScreenVideo::class.java)
+        viewmodel.homeScreenVideo()
+
 
         viewmodel.datatemp.observe(viewLifecycleOwner, Observer {
 
@@ -65,7 +67,7 @@ class TransportTVFragment() : Fragment() {
         })
 
 
-        viewmodel.homeScreenVideo()
+
 
         /* val recyclerAdapter= VideoAdapter(requireActivity(),list)
         binding.videoRecycler.layoutManager= LinearLayoutManager(activity)

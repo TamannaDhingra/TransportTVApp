@@ -6,30 +6,30 @@
         <item
             android:id="@+id/nav_transporttv"
             android:icon="@drawable/transporttv_bottom"
-            android:title="Transport TV" />
+            android:title="@string/transport_tv" />
         <item
             android:id="@+id/nav_insurance"
             android:icon="@drawable/insureance_bottom"
-            android:title="Insurance" />
+            android:title="@string/insurance" />
         <item
             android:id="@+id/nav_dhaba"
             android:icon="@drawable/ic_dhaba_black"
-            android:title="Dhaba" />
+            android:title="@string/dhaba" />
 
         <item
             android:id="@+id/nav_rewards"
             android:icon="@drawable/reward_menu"
-            android:title="Rewards" />
+            android:title="@string/rewards" />
 
         <item
             android:id="@+id/nav_helpline"
             android:icon="@drawable/ic_support_call_icon"
-            android:title="Helpline" />
+            android:title="@string/helpline" />
 
         <item
             android:id="@+id/nav_settings"
             android:icon="@drawable/settingcircle"
-            android:title="Settings" />
+            android:title="@string/setting" />
     </group>
 
 

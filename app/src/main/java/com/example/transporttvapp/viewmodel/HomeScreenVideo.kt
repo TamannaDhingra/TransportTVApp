@@ -26,7 +26,8 @@ class HomeScreenVideo() : ViewModel(){
                  call: Call<ApiResponseModel<GetVideo?>>,
                  response: Response<ApiResponseModel<GetVideo?>>
              ) {
-                 datavideo1.postValue(response.body())
+
+
              }
 
 

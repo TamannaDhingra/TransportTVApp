@@ -38,7 +38,7 @@
                     android:layout_below="@+id/logo_id"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="36dp"
-                    android:text="Verify"
+                    android:text="@string/verify"
                     android:textColor="@color/black"
                     android:textSize="26sp" />
 
@@ -53,7 +53,7 @@
                     android:layout_marginTop="14dp"
                     android:layout_marginEnd="16dp"
                     android:gravity="center"
-                    android:text="Enter OTP Send To"
+                    android:text="@string/enter_otp_send_to"
                     android:textColor="@color/black"
                     android:textSize="18sp" />
 
@@ -96,7 +96,7 @@
                     android:layout_below="@+id/firstPinView"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="14dp"
-                    android:text="OTP Expires in"
+                    android:text="@string/otp_expires_in"
                     android:textColor="@color/black"
                     android:textSize="18sp" />
 
@@ -117,7 +117,7 @@
                         android:layout_height="match_parent"
                         android:background="@color/grey"
                         android:gravity="center"
-                        android:text="Continue"
+                        android:text="@string/Continue"
                         android:enabled="false"
                         android:textColor="@color/white"
                         android:textSize="18sp" />
@@ -141,7 +141,7 @@
                         android:layout_height="match_parent"
                         android:background="@color/light_gray"
                         android:gravity="center"
-                        android:text="Change Phone Number"
+                        android:text="@string/change_phone_number"
                         android:textColor="@color/sub_text_gray"
                         android:textSize="18sp" />
                 </androidx.cardview.widget.CardView>

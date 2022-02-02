@@ -16,6 +16,7 @@
     <LinearLayout
     android:id="@+id/parent"
     android:layout_width="match_parent"
+        android:background="@color/white"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
@@ -26,6 +27,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white"
         android:layout_margin="20.00dp"
         android:elevation="10.00dp"
         app:cardCornerRadius="3.00dp">
@@ -46,7 +48,7 @@
                 android:background="@drawable/radio_button_selector"
                 android:button="@drawable/radio_button_selector"
                 android:gravity="center"
-                android:text="Location"
+                android:text="@string/location"
                 android:textColor="@color/radio_button_text_selector"
                 android:textSize="12.00sp"
             />
@@ -60,7 +62,7 @@
                 android:background="@drawable/radio_button_selector"
                 android:button="@android:color/transparent"
                 android:gravity="center"
-                android:text="Route"
+                android:text="@string/route"
                 android:textColor="@color/radio_button_text_selector"
                 android:textSize="12.00sp"
                />
@@ -72,7 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-
+android:background="@color/white"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
          android:layout_marginBottom="20dp"
@@ -81,6 +83,7 @@
             <FrameLayout
                 android:id="@+id/fragment_content"
                 android:layout_width="match_parent"
+
                 android:layout_height="wrap_content"
                 android:background="@color/white" />
         </LinearLayout>

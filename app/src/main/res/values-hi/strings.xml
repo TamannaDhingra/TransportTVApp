@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ट्रांसपोर्ट टीवीएप</string>
+    <string name="open">" खुला हुआ"</string>
+    <string name="close">" बंद करे"</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="dhaba">ढाबा</string>
+    <string name="rewards">पुरस्कार</string>
+    <string name="helpline">हेल्पलाइन</string>
+    <string name="latest_news">ताज़ा खबर</string>
+    <string name="favourite">पसंदीदा</string>
+    <string name="share">साझा करना</string>
+    <string name="location">स्थान</string>
+    <string name="route">मार्ग</string>
+    <string name="all">सब</string>
+    <string name="gt_road_news">जीटी रोड न्यूज</string>
+    <string name="breaking_news">आज की ताजा खबर</string>
+    <string name="add_stop">स्टॉप जोड़ें</string>
+    <string name="show_dhabas">ढाबा दिखाओ</string>
+    <string name="current_location">वर्तमान स्थान</string>
+    <string name="download">डाउनलोड</string>
+    <string name="add_comment">अपनी टिप्पणी यहाँ जोड़ें</string>
+    <string name="comments">टिप्पणियाँ</string>
+    <string name="tv_helpline">ट्रांसपोर्ट हेल्पलाइन</string>
+    <string name="enter_10_digit_mobile_no" translatable="false">मोबाइल नंबर दर्ज करें</string>
+    <string name="Continue">जारी रखें</string>
+    <string name="verify">सत्यापित करें</string>
+    <string name="enter_otp_send_to">ओटीपी दर्ज करें इसे भेजें</string>
+    <string name="otp_expires_in">"ओटीपी की समय सीमा समाप्त "</string>
+    <string name="change_phone_number">फ़ोन नंबर बदलें</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="punjabi">ਪੰਜਾਬੀ</string>
+    <string name="choose_language">भाषा चुनें</string>
+    <string name="complete_your_profile">अपनी प्रोफाइल पूरी कीजिए</string>
+    <string name="choose_any_service">कोई भी सेवा चुनें</string>
+    <string name="transport_tv">परिवहन टीवी</string>
+    <string name="insurance">बीमा</string>
+    <string name="profile_setup">प्रोफ़ाइल</string>
+    <string name="setting_setup">स्थापना</string>
+    <string name="edit_profile">प्रोफ़ाइल संपादित करें</string>
+    <string name="please_fill_the_below_form">कृपया नीचे दिया गया फॉर्म भरें</string>
+    <string name="enter_first_name">प्रथम नाम दर्ज करें</string>
+    <string name="enter_last_name">अंतिम नाम दर्ज करो</string>
+    <string name="gender">लिंग</string>
+    <string name="male">पुरुष</string>
+    <string name="female">महिला</string>
+    <string name="primary_phone_number">फ़ोन नंबर</string>
+    <string name="secondary_phone_number">द्वितीय फ़ोन नंबर</string>
+    <string name="select_vehicle">वाहन का चयन करें</string>
+    <string name="update">अद्यतन</string>
+    <string name="support">सपोर्ट टीम से संपर्क करें</string>
+    <string name="chattext">चैट</string>
+    <string name="orText">या</string>
+    <string name="calltext">कॉल के लिए अनुरोध</string>
+    <string name="hello_blank_fragment">नमस्ते खाली टुकड़ा</string>
+    <string name="quotation">एक कहावत कहना</string>
+    <string name="vcheclelist">आपकी वाहन सूची</string>
+    <string name="policy">आपकी नीतियां</string>
+    <string name="claim">दावा सूचना</string>
+    <string name="watch_transport_tv_in_app">ऐप में टीवी देखें और कलेक्ट करें</string>
+    <string name="viewers_with_maximum">अधिकतम अंक वाले दर्शक पुरस्कार जीतेंगे</string>
+    <string name="_1_min_of_watch_time_100_points">1 मिनट देखने का समय = 100 अंक</string>
+    <string name="_5_litre_diesel_daily">5 लीटर डीजल डेली</string>
+    <string name="led_tv_monthly">एलईडी टीवी मासिक</string>
+    <string name="my_points_amp_rewards">मेरे अंक और पुरस्कार</string>
+    <string name="winners">विजेता</string>
+    <string name="watch_more_videos_to_win">जीतने के लिए और वीडियो देखें</string>
+    <string name="setting">स्थापना</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="change_lan">भाषा बदलो</string>
+    <string name="title_activity_maps">शीर्षक_गतिविधि_मानचित्र</string>
+
+</resources>

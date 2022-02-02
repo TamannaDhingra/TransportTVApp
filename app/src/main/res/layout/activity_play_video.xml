@@ -63,14 +63,14 @@
                 android:id="@+id/latestnews"
                 android:layout_height="wrap_content"
                 android:textColor="@color/red"
-                android:text="LATEST NEWS" />
+                android:text="@string/latest_news" />
 
-            <Button
+            <!--<Button
                 android:id="@+id/playbtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Play"
-                android:textColor="@color/black" />
+                android:textColor="@color/black" />-->
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -185,7 +185,7 @@
                         android:textSize="9dp"
                         android:layout_marginRight="15dp"
 
-                        android:text="Favourite" />
+                        android:text="@string/favourite" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -193,7 +193,7 @@
                         android:layout_gravity="center"
                         android:textSize="9dp"
                         android:layout_marginRight="10dp"
-                        android:text="Share" />
+                        android:text="@string/share" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -201,7 +201,7 @@
                         android:layout_gravity="center"
                         android:layout_marginRight="8dp"
                         android:textSize="9dp"
-                        android:text="Download" />
+                        android:text="@string/download" />
 
 
                 </LinearLayout>
@@ -211,7 +211,7 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:text="Comments"
+                android:text="@string/comments"
                 android:paddingTop="10dp"
                 android:id="@+id/commentstv"
                 android:visibility="gone"

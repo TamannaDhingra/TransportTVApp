@@ -3,7 +3,100 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="login">Login</string>
+    <string name="enter_10_digit_mobile_no">Enter Mobile Number</string>
+    <string name="Continue">Continue</string>
+    <string name="tv_helpline">Transport HelpLine</string>
+    <string name="verify">Verify</string>
+    <string name="dhaba">Dhaba</string>
+    <string name="location">Location</string>
+    <string name="route">Route</string>
+    <string name="gt_road_news">GT Road News</string>
+    <string name="add_stop">Add Stop</string>
+    <string name="show_dhabas">Show Dhabas</string>
+    <string name="current_location">Current Location</string>
+    <string name="add_comment">Add Your Comment Here</string>
+    <string name="all">All</string>
+    <string name="breaking_news">Breaking News</string>
+    <string name="rewards">Rewards</string>
+    <string name="helpline">Helpline</string>
+    <string name="latest_news">Latest News</string>
+    <string name="favourite">Favourite</string>
+    <string name="share">Share</string>
+    <string name="download">Download</string>
+    <string name="comments">Comments</string>
+    <string name="enter_otp_send_to">Enter OTP Send To</string>
+    <string name="otp_expires_in">OTP Expires in</string>
+    <string name="change_phone_number">Change Phone Number</string>
+    <string name="english">English</string>
+    <string name="punjabi">ਪੰਜਾਬੀ</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="complete_your_profile">Complete Your Profile</string>
+    <string name="choose_any_service">Choose Any Service</string>
+    <string name="transport_tv">Transport Tv</string>
+    <string name="insurance">Insurance</string>
+    <string name="profile_setup">Profile </string>
+    <string name="setting_setup">Setting</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="please_fill_the_below_form">Please Fill The Below Form</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="primary_phone_number">Phone Number</string>
+    <string name="secondary_phone_number">Secondary Phone Number</string>
+    <string name="select_vehicle">Select Vehicle</string>
+    <string name="update">Update</string>
+    <string name="support">Contact Suppot Team</string>
+    <string name="chattext">Chat</string>
+    <string name="orText">OR</string>
+    <string name="calltext">Request for call</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quotation">Get a Quote</string>
+    <string name="vcheclelist">Your Vehicle List</string>
+    <string name="policy">Your Policies</string>
+    <string name="claim">Claim Intimation</string>
+    <string name="watch_transport_tv_in_app"><![CDATA[Watch Transport TV in App & Collect Points]]>]></string>
+    <string name="viewers_with_maximum">Viewers with maximum points will win prizes</string>
+    <string name="_1_min_of_watch_time_100_points">1 min of Watch time = 100 points</string>
+    <string name="_5_litre_diesel_daily">5 Litre Diesel Daily</string>
+    <string name="led_tv_monthly">LED TV Monthly</string>
+    <string name="my_points_amp_rewards"><![CDATA[[My Points & Rewards]]></string>
+    <string name="winners">Winner</string>
+    <string name="watch_more_videos_to_win">Watch more videos to win</string>
+    <string name="setting">Setting</string>
+    <string name="profile">Profile</string>
+    <string name="logout">logout</string>
+    <string name="change_lan">Change Language</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="title_activity_maps">MapsActivity</string>
+
+
 </resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

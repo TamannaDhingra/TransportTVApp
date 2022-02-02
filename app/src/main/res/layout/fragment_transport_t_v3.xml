@@ -10,23 +10,26 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="48dp"
+        android:background="@color/white"
         tools:context=".ui.fragments.TransportTVFragment">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@color/white"
             android:orientation="vertical">
 
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp">
+              >
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/white"
                     android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
@@ -41,7 +44,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="ALL"
+                            android:text="@string/all"
                             android:textSize="15dp"
                             android:textColor="@color/white"
                             android:layout_gravity="center"
@@ -64,7 +67,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Latest news"
+                            android:text="@string/latest_news"
                             android:textSize="15dp"
                             android:textColor="@color/black"
                             android:layout_gravity="center"
@@ -87,7 +90,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Breaking news"
+                            android:text="@string/breaking_news"
                             android:textSize="15dp"
                             android:textColor="@color/black"
                             android:layout_gravity="center"
@@ -110,7 +113,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="GT Road news"
+                            android:text="@string/gt_road_news"
                             android:textSize="15dp"
                             android:textColor="@color/black"
                             android:layout_gravity="center"
@@ -134,10 +137,12 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+
                 android:orientation="vertical">
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:layout_width="match_parent"
+
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:id="@+id/video_recycler">

@@ -34,14 +34,14 @@ class ShowDhabasAdapter(val context: Context, val list: List<DhabaLocationRespon
           binding.dhabaDetails=data
 
           binding.dhabaDetailImage.setOnClickListener {
-              val intent = Intent(context, DhabaDetails::class.java)
+              /*val intent = Intent(context, DhabaDetails::class.java)
               intent.putExtra("idData",data._id)
-              context.startActivity(intent)
+              context.startActivity(intent)*/
           }
-          binding.imageView7.setOnClickListener {
+         /* binding.imageView7.setOnClickListener {
               val intent=Intent(context,MapsActivity::class.java)
               context.startActivity(intent)
-          }
+          }*/
 
 }
 

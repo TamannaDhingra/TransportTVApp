@@ -7,63 +7,41 @@
 
     </data>
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+
         android:layout_marginTop="13dp"
         tools:context=".ui.SearchViewDhaba">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+
+        <androidx.appcompat.widget.SearchView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:focusable="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/searchview_background"
+            android:id="@+id/search_view"/>
 
-            <ImageView
-                android:id="@+id/crossimageView"
-                android:layout_width="22dp"
-                android:layout_height="22dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="20dp"
-                android:src="@drawable/left_arrow"
-                app:layout_constraintEnd_toStartOf="@+id/search_bar"
-                app:layout_constraintTop_toTopOf="parent" />
+   <!-- <EditText
+        android:id="@+id/etsearch"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableStart="@drawable/grey_search"
+        android:drawablePadding="8dp"
+        android:background="@drawable/searchview_background"
+        android:hint="Search for area,street.."
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+-->
 
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="22dp"
-                android:layout_height="22dp"
-
-
-                android:src="@drawable/icon_cross"
-                android:layout_marginEnd="10dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/search_bar"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <androidx.appcompat.widget.SearchView
-                android:id="@+id/search_bar"
-                android:layout_width="320dp"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="16dp"
-                android:layout_marginEnd="24dp"
-
-                android:background="@drawable/searchview_background"
-                app:queryHint="Search for area,street"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:queryBackground="@color/transparent_white"
-              />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginTop="5dp"
-            android:background="@color/light_gray" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -107,14 +85,13 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <ListView
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="530dp"
-
+            android:layout_height="560dp"
             android:layout_marginTop="15dp"
             tools:listitem="@layout/custom_search_list"
             android:layout_marginEnd="16dp"
-            android:id="@+id/searchlistListview" />
+            android:id="@+id/searchlistRecyclerview" />
 
         <TextView
             android:layout_width="match_parent"
@@ -125,4 +102,5 @@
 
 
     </LinearLayout>
+
 </layout>

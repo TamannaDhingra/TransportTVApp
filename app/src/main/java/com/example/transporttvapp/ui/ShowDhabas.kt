@@ -47,14 +47,14 @@ class ShowDhabas : AppCompatActivity() {
             GetCurrentLocationFactory(repo)
         ).get(GetCurrentLocation::class.java)
 
-        val obj = viewmodel.getLocation(getLat.toString(), getLong.toString())
+         viewmodel.getLocation(getLat.toString(), getLong.toString())
 
         viewmodel.data1.observe(this, Observer {
 
             it.data?.let {
 
-                Log.d("TAG", "onCreate:checkdhabaid "+ it.get(0).dhaba._id)
-                Log.d("TAG", "onCreate:check_Owner_id "+ it.get(0).owner._id)
+               /* Log.d("TAG", "onCreate:checkdhabaid "+ it.get(0).dhaba._id)
+                Log.d("TAG", "onCreate:check_Owner_id "+ it.get(0).owner._id)*/
                 val recyclerAdapter = ShowDhabasAdapter(this, it)
                 binding.showDhabaRecycler.layoutManager = LinearLayoutManager(this@ShowDhabas)
                 binding.showDhabaRecycler.adapter = recyclerAdapter

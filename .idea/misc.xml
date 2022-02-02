@@ -3,18 +3,39 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/drawable/grey_search.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/drawable/location.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/drawable/searchview_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/activity_bottom_nav.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/activity_choose_language.xml" value="0.264" />
         <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/activity_dhaba_details.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/activity_login_with_mobile_num.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/activity_play_video.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/activity_main.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/activity_maps.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/activity_play_video.xml" value="0.264" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/activity_search_view_dhaba.xml" value="0.264" />
         <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/activity_show_dhabas.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/activity_show_route.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.24270833333333333" />
         <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/activity_verify_mobile_num.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/fragment_dhaba.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/comments_view.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/custom_search_list.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/dhabha_toolbar.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/fragment_choose_language.xml" value="0.264" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/fragment_comments__bottom__sheet.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/fragment_custom__player.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/fragment_dhaba.xml" value="0.2" />
         <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/fragment_location_tab.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/fragment_route_tab.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/fragment_transport_t_v3.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/home_screen_video_view.xml" value="0.24270833333333333" />
         <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/inflater_dhaba_images.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/nav_header.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/online_player_custom_control.xml" value="0.24270833333333333" />
         <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/route_display_maps_activity.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/layout/show_dhaba_listview.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/lenovo/Downloads/TransportTVApp renamed(1)/TransportTVApp/app/src/main/res/menu/search_item.xml" value="0.25416666666666665" />
         <entry key="app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.19907407407407407" />
         <entry key="app/src/main/res/layout/activity_bottom_nav.xml" value="0.15" />
         <entry key="app/src/main/res/layout/activity_dhaba_details.xml" value="0.25" />

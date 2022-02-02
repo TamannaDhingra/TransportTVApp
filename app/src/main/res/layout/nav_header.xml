@@ -73,7 +73,7 @@
                 android:layout_gravity="start"
                 android:layout_marginTop="5dp"
                 android:gravity="center"
-                android:text="complete_your_profile"
+                android:text="@string/complete_your_profile"
                 android:textColor="@color/text_gray"
                 android:textSize="16sp" />
 

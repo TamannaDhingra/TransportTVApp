@@ -11,10 +11,8 @@ import android.location.Geocoder
 import android.location.Location
 import android.os.Bundle
 import android.os.Looper
+import android.view.*
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.widget.SearchView
@@ -113,6 +111,36 @@ class LocationTabFragment(val context2: Context, val context: Activity) : Fragme
         return binding.root
     }
 
+
+  /*  override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater)
+    {
+        inflater.inflate(R.menu.search_item,menu)
+        val searchItem=menu.findItem(R.id.search_bar)
+
+            val searchview=searchItem.actionView as SearchView
+            searchview.queryHint="Search for area,street"
+
+            searchview.setOnQueryTextListener(object :SearchView.OnQueryTextListener{
+                override fun onQueryTextSubmit(query: String?): Boolean {
+                    TODO("Not yet implemented")
+                    Toast.makeText(activity,query,Toast.LENGTH_SHORT).show()
+                    searchview.clearFocus()
+
+                    return true
+                }
+
+                override fun onQueryTextChange(newText: String?): Boolean {
+                    TODO("Not yet implemented")
+
+                    return true
+                }
+
+            })
+
+
+         return super.onCreateOptionsMenu(menu, inflater)
+    }
+*/
     private fun checkLocationPermission() {
 
 

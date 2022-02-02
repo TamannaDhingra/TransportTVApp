@@ -12,7 +12,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
-
+             android:background="@color/white"
         android:layout_height="match_parent"
         tools:context=".ui.ChooseLanguage">
 
@@ -31,6 +31,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="16dp"
+            android:background="@color/white"
             android:id="@+id/choose_lang"
             android:layout_marginTop="100dp"
             android:orientation="vertical">
@@ -64,7 +65,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-
+                        android:id="@+id/engtv"
                     android:gravity="center"
                     android:orientation="horizontal">
 
@@ -84,7 +85,8 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:layout_gravity="center"
-                        android:layout_marginStart="160dp"
+                        android:gravity="center"
+                        android:layout_marginStart="150dp"
                         android:text="English"
 
                         android:textColor="@color/text_gray"
@@ -113,7 +115,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
+                    android:id="@+id/hinditv"
                     android:layout_marginTop="10dp"
                     android:gravity="center"
                     android:orientation="horizontal">
@@ -124,7 +126,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:layout_gravity="center"
-                        android:layout_marginStart="168dp"
+                        android:layout_marginStart="157dp"
                         android:text="हिन्दी"
 
                         android:textColor="@color/text_gray"
@@ -167,6 +169,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:gravity="center"
+                    android:id="@+id/punjabitv"
                     android:orientation="horizontal">
 
                     <TextView
@@ -176,7 +179,7 @@
                         android:layout_centerInParent="true"
                         android:layout_gravity="center"
 
-                        android:layout_marginStart="168dp"
+                        android:layout_marginStart="154dp"
                         android:text="ਪੰਜਾਬੀ"
                         android:textColor="@color/text_gray"
                         android:textSize="16sp"
